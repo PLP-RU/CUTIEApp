@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <head>
+  <style>
+   @font-face {
+    font-family: Roboto; /* имя шрифта для CSS правил */
+    src: local("Roboto"), /* проверяем наличие шрифта в ОС пользователя */
+    url(Roboto-Regular.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+   }
+   .link a {
+     display: block; /* Ссылка как блочный элемент */
+     text-align: center; /* Выравнивание по центру */
+     height: 100%; /* Высота на весь слой */
+     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+     color: #FFFFFF; /* Цвет текста */
+     background: #FFDBDB; /* Цвет фона */
+     font-family: Roboto; 
+     font-size: 200%; /* Размер текста */
+   } 
+   .link {
+     width: 100%; /* Ширина слоя */
+     height: 100%; /* Высота слоя */
+     background: #FFDBDB; /* Цвет фона */
+    }
+  </style>
 </head>
 <body bgcolor="#FFDBDB">
-<a href="2.html">
-	
+<div class="link">
+<a href="2.html">	
 	<img src="1.gif" width="100%">
-
+	<br>
+	<br>
+	<center>Just tap on Baymax when you be ready</center>
 </a>
+</div>
 </body>
 </html>
