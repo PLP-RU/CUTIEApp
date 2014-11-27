@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-	<icon src="MEDS.png" />
+	<icon src="first21_120x120_001.png" />
 	
 	<gap:platform name="android" />
 	
